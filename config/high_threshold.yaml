@@ -1,0 +1,8 @@
+# config/high_threshold.yaml
+# Same data, different experiment: only the threshold and output folder change.
+input_path: ../data/raw/measurements.csv
+output_dir: ../outputs/high_threshold
+
+analysis:
+  column: value
+  threshold: 12.0

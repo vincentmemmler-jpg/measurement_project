@@ -1,0 +1,8 @@
+# config/base.yaml
+# Paths are relative to this YAML file, not to the terminal's working directory.
+input_path: ../data/raw/measurements.csv
+output_dir: ../outputs/baseline
+
+analysis:
+  column: value
+  threshold: 10.0   # count values strictly greater than this (>)

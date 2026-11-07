@@ -1,0 +1,22 @@
+# Cmd + Shift + . to show
+# Local environment
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Generated output
+# or some files/folders too large to upload
+outputs/
+.ipynb_checkpoints/
+
+# Local credentials
+# files you can not upload
+.env
+.env.*
+!.env.example
+
+# Operating-system files
+# trash files
+.DS_Store
+._*
